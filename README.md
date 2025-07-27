@@ -131,16 +131,16 @@ React app will start at http://localhost:3000
 
 ## 📬 Postman API Collection
 
-| POST   | /api/auth/register                | Register new user               |
-| POST   | /api/auth/login                   | Login and receive JWT           |
-| GET    | /api/tasks                        | Get tasks (filter/sort/search)  |
-| POST   | /api/tasks                        | Create task                     |
-| PUT    | /api/tasks/\:id                   | Update task                     |
-| DELETE | /api/tasks/\:id                   | Delete task                     |
-| GET    | /api/dashboard/user               | Get user stats                  |
-| GET    | /api/dashboard/manager            | Get global stats (Manager only) |
-| GET    | /api/tasks/admin/users            | List all users (Manager only)   |
-| GET    | /api/tasks/admin/users/\:id/tasks | List tasks by user              |
+- | POST   | /api/auth/register                | Register new user               |
+- | POST   | /api/auth/login                   | Login and receive JWT           |
+- | GET    | /api/tasks                        | Get tasks (filter/sort/search)  |
+- | POST   | /api/tasks                        | Create task                     |
+- | PUT    | /api/tasks/\:id                   | Update task                     |
+- | DELETE | /api/tasks/\:id                   | Delete task                     |
+- | GET    | /api/dashboard/user               | Get user stats                  |
+- | GET    | /api/dashboard/manager            | Get global stats (Manager only) |
+- | GET    | /api/tasks/admin/users            | List all users (Manager only)   |
+- | GET    | /api/tasks/admin/users/\:id/tasks | List tasks by user              |
 
 ---
 
